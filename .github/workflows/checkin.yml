@@ -3,7 +3,7 @@ name: GLaDOS 2026 Checkin
 于:
   schedule:
     # 北京时间 9:30 (UTC 1:30)
-    - cron: '0 16 * * *'
+    - cron: '1 16 * * *'
     # 北京时间 21:30 (UTC 13:30)
     - cron: '30 13 * * *'
   workflow_dispatch:  # 允许手动触发
